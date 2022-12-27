@@ -1,0 +1,5 @@
+config BR2_PACKAGE_STM32MP1_DTBO
+	bool "dtbo files"
+	help
+	  This is the 100ask stm32mp157 board
+	  dtbo files.

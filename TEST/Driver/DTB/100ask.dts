@@ -1,0 +1,14 @@
+#define GPIO_GROUND(g,p) ((g << 6) | (p))
+/{
+
+100ask_pin@0{
+    compatible = "100ask,leddriv";
+    pin = <GPIO_GROUND(3,1)>;
+};
+
+100ask_pin@1{
+    compatible = "100ask,leddriv";
+    pin = <GPIO_GROUND(5,1)>;
+};
+
+};

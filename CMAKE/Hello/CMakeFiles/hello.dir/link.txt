@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/hello.dir/hello.cpp.o  -o bin/hello -Wl,-rpath,/home/book/share/Kernal/CMAKE/Hello/cal: lib/libaddtion.a cal/libsubtion.so 

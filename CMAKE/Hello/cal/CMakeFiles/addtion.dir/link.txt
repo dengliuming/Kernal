@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libaddtion.a  CMakeFiles/addtion.dir/addaction.cpp.o
+/usr/bin/ranlib ../lib/libaddtion.a

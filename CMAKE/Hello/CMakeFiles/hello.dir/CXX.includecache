@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/book/share/Kernal/CMAKE/Hello/config.h
+
+/home/book/share/Kernal/CMAKE/Hello/hello.cpp
+iostream
+-
+config.h
+/home/book/share/Kernal/CMAKE/Hello/config.h
+addaction.h
+/home/book/share/Kernal/CMAKE/Hello/addaction.h
+subtion.h
+/home/book/share/Kernal/CMAKE/Hello/subtion.h
+
+cal/addaction.h
+
+cal/subtion.h
+

@@ -1,0 +1,15 @@
+/home/book/share/Kernal/CMAKE/Hello/CMakeFiles/install/strip.dir
+/home/book/share/Kernal/CMAKE/Hello/CMakeFiles/edit_cache.dir
+/home/book/share/Kernal/CMAKE/Hello/CMakeFiles/hello.dir
+/home/book/share/Kernal/CMAKE/Hello/CMakeFiles/rebuild_cache.dir
+/home/book/share/Kernal/CMAKE/Hello/CMakeFiles/list_install_components.dir
+/home/book/share/Kernal/CMAKE/Hello/CMakeFiles/install/local.dir
+/home/book/share/Kernal/CMAKE/Hello/CMakeFiles/install.dir
+/home/book/share/Kernal/CMAKE/Hello/cal/CMakeFiles/install/strip.dir
+/home/book/share/Kernal/CMAKE/Hello/cal/CMakeFiles/install/local.dir
+/home/book/share/Kernal/CMAKE/Hello/cal/CMakeFiles/subtion.dir
+/home/book/share/Kernal/CMAKE/Hello/cal/CMakeFiles/rebuild_cache.dir
+/home/book/share/Kernal/CMAKE/Hello/cal/CMakeFiles/edit_cache.dir
+/home/book/share/Kernal/CMAKE/Hello/cal/CMakeFiles/addtion.dir
+/home/book/share/Kernal/CMAKE/Hello/cal/CMakeFiles/list_install_components.dir
+/home/book/share/Kernal/CMAKE/Hello/cal/CMakeFiles/install.dir

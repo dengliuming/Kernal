@@ -1,0 +1,4 @@
+config BR2_PACKAGE_RS485_READ
+	bool "rs485 read "
+	help
+	  This is the 100ask rs485 read application.

@@ -1,0 +1,20 @@
+#!/bin/sh
+
+
+#Get the way to start the device 
+LINE=$(cat /proc/cmdline )
+VAR=$(echo ${LINE:28:14} | awk '{print $1}')
+
+if [ $VAR =  '/dev/mmcblk1p2' ]; then
+       resize2fs /dev/mmcblk1p2
+       break;
+
+else
+        resize2fs /dev/mmcblk0p2
+fi
+
+
+
+cd /etc/init.d
+rm S35resize
+echo "config  ok !"

@@ -1,0 +1,38 @@
+#!/bin/sh
+
+LVGL="/etc/init.d/S05lvgl"
+start() {
+	if [  -f "$LVGL" ]; then
+		echo "run lvgl"
+		break;
+	else
+		psplash-write "PROGRESS 75"
+		ntpd
+		export XDG_RUNTIME_DIR=/tmp/runtime-root
+		export QT_QPA_PLATFORM=linuxfb
+		export QT_QPA_EGLFS_TSLIB=1
+		export TSLIB_CALIBFILE="/etc/pointercal"
+		export TSLIB_TSDEVICE="/dev/input/event1"
+		psplash-write "PROGRESS 95"
+		/usr/bin/mxapp2 --plugin tslib:$TSLIB_TSDEVICE &
+		psplash-write "QUIT"
+	fi
+}
+
+stop() {
+	killall mxapp2
+}
+
+case "$1" in
+        start)
+                start
+                ;;
+        stop)
+                stop
+                ;;
+        *)
+                echo "Usage: $0 {start| stop|restart}"
+                exit 1
+esac
+
+exit $?

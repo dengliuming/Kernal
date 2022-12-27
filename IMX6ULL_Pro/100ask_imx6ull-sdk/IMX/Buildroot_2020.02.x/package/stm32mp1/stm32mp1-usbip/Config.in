@@ -1,0 +1,4 @@
+config BR2_PACKAGE_STM32MP1_USBIP
+	bool "usbip rules "
+	help
+	  This is the 100ask stm32mp1 board usbip rules.

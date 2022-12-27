@@ -1,0 +1,5 @@
+config BR2_PACKAGE_STM32MP1_AP6236
+	bool "ap6236 firmware"
+	help
+	  This is the 100ask stm32mp157 board
+	  ap6236 wifi bluetooth firmware.

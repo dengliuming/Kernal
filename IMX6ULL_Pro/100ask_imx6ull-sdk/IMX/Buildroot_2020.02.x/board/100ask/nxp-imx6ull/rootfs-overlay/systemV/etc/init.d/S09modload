@@ -1,0 +1,38 @@
+#!/bin/sh
+
+start() {
+	
+	echo 133 > /sys/class/gpio/export
+	echo out > /sys/class/gpio/gpio133/direction
+	echo 1 > /sys/class/gpio/gpio133/value
+	
+	modprobe 100ask_ds18b20
+	modprobe 100ask_dht11
+	modprobe 100ask_rc-nec
+	modprobe 100ask_irda
+	modprobe 100ask_spidev
+	modprobe 100ask_adxl345-spi
+}
+
+stop() {
+	rmmod 100ask_ds18b20
+	rmmod 100ask_dht11
+	rmmod 100ask_rc-nec
+	rmmod 100ask_irda
+	rmmod 100ask_spidev
+	rmmod 100ask_adxl345-spi
+}
+case "$1" in 
+	start)
+		start
+		;;
+	stop)
+		stop
+		;;
+	*)
+		echo "Usage: $0 {start| stop|restart}"
+		exit 1
+esac
+
+exit $?
+

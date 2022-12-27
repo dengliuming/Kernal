@@ -1,0 +1,33 @@
+menuconfig BR2_PACKAGE_STM32MP1
+	bool "100ask stm32mp1 board libraries"
+	depends on BR2_arm
+	help
+	This is the 100ask stm32mp157 board packags.
+	
+if BR2_PACKAGE_STM32MP1
+choice
+	prompt "ST platform"
+
+config BR2_PACKAGE_ST_PLATFORM_STM32MP157
+	bool "stm32mp157"
+
+config BR2_PACKAGE_ST_PLATFORM_STM32MP153
+	bool "stm32mp153"
+
+config BR2_PACKAGE_ST_PLATFORM_STM32MP151
+	bool "stm32mp151"
+
+endchoice
+
+config BR2_PACKAGE_ST_PLATFORM
+	string
+	default "stm32mp157" if BR2_PACKAGE_ST_PLATFORM_STM32MP157
+	default "stm32mp153" if BR2_PACKAGE_ST_PLATFORM_STM32MP153
+	default "stm32mp151" if BR2_PACKAGE_ST_PLATFORM_STM32MP151
+
+source "package/stm32mp1/stm32mp1-ap6236/Config.in"
+source "package/stm32mp1/stm32mp1-usbip/Config.in"
+source "package/stm32mp1/stm32mp1-usbotg/Config.in"
+source "package/stm32mp1/stm32mp1-dtbo/Config.in"
+
+endif
