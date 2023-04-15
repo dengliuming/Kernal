@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-15T08:49:22.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="3vZ4ybGjaeMCNr3DNRQF" version="21.0.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-04-15T09:03:14.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="odoTqtsEHybdeu4oiRmK" version="21.0.10" type="github" pages="4">
   <diagram name="第 1 页" id="gJsdyg9My9DsHfwXBbLl">
     <mxGraphModel dx="1377" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -972,7 +972,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AjNd_jDZXLXPjI-JAdKU" name="Child detect">
-    <mxGraphModel dx="950" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1007,7 +1007,7 @@
           <mxGeometry x="286" y="760" width="256" height="80" as="geometry" />
         </mxCell>
         <mxCell id="S_usXPavUGPw1G5Dr1D0-4" value="根据儿童分数、儿童骨骼补偿点和儿童骨骼判断是否是儿童" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="685" y="1450" width="120" height="60" as="geometry" />
+          <mxGeometry x="1755" y="1794" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YwVcRjyiWI_xpVLOSYgb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YwVcRjyiWI_xpVLOSYgb-1" target="YwVcRjyiWI_xpVLOSYgb-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1026,36 +1026,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YwVcRjyiWI_xpVLOSYgb-1" value="判断人脸分数值是否符合预期值" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1450" width="256" height="80" as="geometry" />
+          <mxGeometry x="1350" y="1794" width="256" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YwVcRjyiWI_xpVLOSYgb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YwVcRjyiWI_xpVLOSYgb-6" target="YwVcRjyiWI_xpVLOSYgb-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YwVcRjyiWI_xpVLOSYgb-6" value="根据分数和年龄判断是否是儿童" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="348" y="1680" width="120" height="60" as="geometry" />
+          <mxGeometry x="1418" y="2024" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YwVcRjyiWI_xpVLOSYgb-9" value="根据骨骼分数判断儿童检测结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="525" y="1680" width="120" height="60" as="geometry" />
+          <mxGeometry x="1595" y="2024" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YwVcRjyiWI_xpVLOSYgb-12" value="获取儿童检测结果" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="348" y="1900" width="120" height="60" as="geometry" />
+          <mxGeometry x="1418" y="2244" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YwVcRjyiWI_xpVLOSYgb-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.533;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="YwVcRjyiWI_xpVLOSYgb-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="408" y="1820" as="sourcePoint" />
-            <mxPoint x="578" y="1740" as="targetPoint" />
+            <mxPoint x="1478" y="2164" as="sourcePoint" />
+            <mxPoint x="1648" y="2084" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="589" y="1820" />
+              <mxPoint x="1659" y="2164" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YwVcRjyiWI_xpVLOSYgb-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="S_usXPavUGPw1G5Dr1D0-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="415" y="1820" as="sourcePoint" />
-            <mxPoint x="785" y="1770" as="targetPoint" />
+            <mxPoint x="1485" y="2164" as="sourcePoint" />
+            <mxPoint x="1855" y="2114" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="595" y="1820" />
-              <mxPoint x="745" y="1820" />
+              <mxPoint x="1665" y="2164" />
+              <mxPoint x="1815" y="2164" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1125,8 +1125,112 @@
         <mxCell id="tu9eiwgLieum8S5RIXAd-23" value="判断该人我儿童检测无效" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1010" y="570" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-26" target="tu9eiwgLieum8S5RIXAd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tu9eiwgLieum8S5RIXAd-26" value="获取儿童骨骼分数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="353" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-29" target="tu9eiwgLieum8S5RIXAd-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-29" value="判断年龄是否有效" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1070" width="256" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-30" target="tu9eiwgLieum8S5RIXAd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-30" value="获取年龄分数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="348" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-33" target="tu9eiwgLieum8S5RIXAd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-33" value="判断逻辑分数是否大于0.2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1300" width="256" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-36" target="tu9eiwgLieum8S5RIXAd-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-54" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tu9eiwgLieum8S5RIXAd-43">
+          <mxGeometry x="-0.346" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-36" target="tu9eiwgLieum8S5RIXAd-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-36" value="判断年龄分数值是否大于0.8" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1430" width="256" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-37" target="tu9eiwgLieum8S5RIXAd-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-53" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tu9eiwgLieum8S5RIXAd-42">
+          <mxGeometry x="-0.0159" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-37" target="tu9eiwgLieum8S5RIXAd-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-37" value="判断年龄分数值是否不小于0.1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1570" width="256" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-38" value="输出儿童" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-39" value="输出非儿童" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-46" target="tu9eiwgLieum8S5RIXAd-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-46" value="判断儿童骨骼的分数是否有效" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1714" width="256" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-48" target="tu9eiwgLieum8S5RIXAd-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-48" value="判断body的bottom是否&amp;gt;1000||高度是否&amp;gt;700||宽度是否&amp;gt;650" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1880" width="256" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-55" target="tu9eiwgLieum8S5RIXAd-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-61" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tu9eiwgLieum8S5RIXAd-57">
+          <mxGeometry x="-0.1486" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-55" target="tu9eiwgLieum8S5RIXAd-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-55" value="判断儿童骨骼分数是否&amp;gt;=儿童预期值" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="279" y="2024" width="256" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-56" value="输出儿童" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="683" y="2034" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-58" target="tu9eiwgLieum8S5RIXAd-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-62" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tu9eiwgLieum8S5RIXAd-60">
+          <mxGeometry x="-0.2027" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tu9eiwgLieum8S5RIXAd-58" target="tu9eiwgLieum8S5RIXAd-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-58" value="判断儿童骨骼分数是否&amp;lt;=成人预期分数" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2164" width="256" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-59" value="输出非儿童" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="689" y="2174" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tu9eiwgLieum8S5RIXAd-66" value="返回儿童骨骼分数是否&amp;gt;成人预期分数+儿童预期分数" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="348" y="2334" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
