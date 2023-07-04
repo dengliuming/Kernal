@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T09:10:58.220Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="27vK3-4n5x56gTTv2cD9" version="21.3.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-04T10:48:42.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="lIR254N2WIXanhppZvrP" version="21.3.4" type="github" pages="5">
   <diagram name="第 1 页" id="gJsdyg9My9DsHfwXBbLl">
     <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1566,7 +1566,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="v78cEYIprSjKoAyN1Jxp" name="第 5 页">
-    <mxGraphModel dx="599" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="361" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1624,7 +1624,7 @@
         <mxCell id="nwMPn-mqJUFo4KvwA8zu-39" value="记录相同位置的人数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1080" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nwMPn-mqJUFo4KvwA8zu-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=200;entryDy=120;entryPerimeter=0;" edge="1" parent="1" source="nwMPn-mqJUFo4KvwA8zu-42" target="nwMPn-mqJUFo4KvwA8zu-49">
+        <mxCell id="nwMPn-mqJUFo4KvwA8zu-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.049;entryY=0.482;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nwMPn-mqJUFo4KvwA8zu-42" target="nwMPn-mqJUFo4KvwA8zu-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nwMPn-mqJUFo4KvwA8zu-80" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nwMPn-mqJUFo4KvwA8zu-50">
@@ -1644,7 +1644,7 @@
           <mxGeometry x="1060" y="760" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nwMPn-mqJUFo4KvwA8zu-49" value="三种情况的判断大人抱小孩：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1、检测到第一个人的正常坐姿body和第二个人face时的交并集判断；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2、检测到第一个人face和第二个人正常坐姿body时的交并集判断；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3、当检测到两个人正常坐姿&lt;br&gt;body的交并集的判断；" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="660" width="400" height="120" as="geometry" />
+          <mxGeometry x="1260" y="680" width="400" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nwMPn-mqJUFo4KvwA8zu-82" value="儿童状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1430" y="890" width="120" height="60" as="geometry" />
@@ -1831,6 +1831,31 @@
         </mxCell>
         <mxCell id="nwMPn-mqJUFo4KvwA8zu-130" value="非儿童" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1724" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nwMPn-mqJUFo4KvwA8zu-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nwMPn-mqJUFo4KvwA8zu-137" target="nwMPn-mqJUFo4KvwA8zu-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nwMPn-mqJUFo4KvwA8zu-140" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nwMPn-mqJUFo4KvwA8zu-139">
+          <mxGeometry x="-0.2969" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nwMPn-mqJUFo4KvwA8zu-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nwMPn-mqJUFo4KvwA8zu-137" target="nwMPn-mqJUFo4KvwA8zu-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nwMPn-mqJUFo4KvwA8zu-143" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nwMPn-mqJUFo4KvwA8zu-142">
+          <mxGeometry x="-0.6494" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nwMPn-mqJUFo4KvwA8zu-137" value="判断大人抱小孩状态是否有效" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="745" width="265" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nwMPn-mqJUFo4KvwA8zu-138" value="输出分别的儿童状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1893" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nwMPn-mqJUFo4KvwA8zu-141" value="输出由非上层限制的儿童结果状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
