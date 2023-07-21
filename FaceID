@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T11:47:08.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="OUIwfw9WspHGMucbz-mT" version="21.3.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-21T03:35:41.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="uNzsYyIfhu0BTebzrkbh" version="21.6.3" type="github" pages="7">
   <diagram name="第 1 页" id="gJsdyg9My9DsHfwXBbLl">
     <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1856,6 +1856,100 @@
         </mxCell>
         <mxCell id="nwMPn-mqJUFo4KvwA8zu-141" value="输出由非上层限制的儿童结果状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2130" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aimuy5HRAP6mHuEq4w6R" name="数据流程图">
+    <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y5L0VD3J5exyQq3lr_4O-19" target="y5L0VD3J5exyQq3lr_4O-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y5L0VD3J5exyQq3lr_4O-26">
+          <mxGeometry x="-0.7119" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTXoiB8Q8DwpUqQ3UwE4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y5L0VD3J5exyQq3lr_4O-19" target="oTXoiB8Q8DwpUqQ3UwE4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXoiB8Q8DwpUqQ3UwE4-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oTXoiB8Q8DwpUqQ3UwE4-3">
+          <mxGeometry x="-0.4857" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-19" value="本地是否存在证书激活码" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="630" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y5L0VD3J5exyQq3lr_4O-28" target="y5L0VD3J5exyQq3lr_4O-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-28" value="BYD喂图片到SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y5L0VD3J5exyQq3lr_4O-30" target="y5L0VD3J5exyQq3lr_4O-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-30" value="SDK算法运行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-32" value="BYD应用接收算法结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXoiB8Q8DwpUqQ3UwE4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y5L0VD3J5exyQq3lr_4O-34" target="y5L0VD3J5exyQq3lr_4O-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y5L0VD3J5exyQq3lr_4O-34" value="开启BYD应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXoiB8Q8DwpUqQ3UwE4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oTXoiB8Q8DwpUqQ3UwE4-2" target="y5L0VD3J5exyQq3lr_4O-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXoiB8Q8DwpUqQ3UwE4-2" value="在线激活" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mrGrUkfBjullajeZCba-" name="第 7 页">
+    <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.05;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eCs6CdYedIFmCIeNKTjs-2" target="eCs6CdYedIFmCIeNKTjs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCs6CdYedIFmCIeNKTjs-4" target="eCs6CdYedIFmCIeNKTjs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-4" value="BYD应用软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCs6CdYedIFmCIeNKTjs-6" target="eCs6CdYedIFmCIeNKTjs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-6" value="BYD调取摄像头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-7" value="车内图片" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCs6CdYedIFmCIeNKTjs-9" target="eCs6CdYedIFmCIeNKTjs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-9" value="商汤SDK算法运算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCs6CdYedIFmCIeNKTjs-10" value="算法结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
