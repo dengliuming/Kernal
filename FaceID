@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T07:12:11.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="wJ4ltGH-j2T8eBfmxkoX" version="24.0.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-22T07:36:13.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="AJwd2-18GlkFXucxfUce" version="24.0.6" type="github" pages="9">
   <diagram name="第 1 页" id="gJsdyg9My9DsHfwXBbLl">
     <mxGraphModel dx="1386" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2157,18 +2157,6 @@
         </mxCell>
         <mxCell id="sR_6OTbQ62USDNxnjpFq-6" value="具体芯片：gpio_mux.c" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="590" y="330" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="sR_6OTbQ62USDNxnjpFq-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR_6OTbQ62USDNxnjpFq-1" target="sR_6OTbQ62USDNxnjpFq-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="430" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sR_6OTbQ62USDNxnjpFq-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="229.5" as="sourcePoint" />
-            <mxPoint x="590" y="229.5" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="sR_6OTbQ62USDNxnjpFq-12" value="gpiochip_add" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="340" width="60" height="30" as="geometry" />
