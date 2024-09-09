@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-09-09T03:40:51.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="tVy3i1LiDUhcn5pOPnR8" version="24.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-09-09T03:51:12.044Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="f9EaDANHwAmNtUH4vQCl" version="24.4.4" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1" />
   <diagram id="kxF-6bG0vD-OGPQEz8Fa" name="第 2 页">
     <mxGraphModel dx="1386" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
@@ -16,6 +16,36 @@
         </mxCell>
         <mxCell id="TmvDmhQx3JAfE-i-6h_T-4" value="Android端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-5" value="UE播报" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-7" value="设置" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-8" value="......" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-10" value="Linux端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-11" value="影像系统" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="345" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0080;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-13" value="OMS应用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-14" value="算法插件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0080;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="450" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmvDmhQx3JAfE-i-6h_T-17" value="OMS摄像头" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
