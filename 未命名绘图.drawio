@@ -72,7 +72,7 @@
         <mxCell id="64MuYq4MFdSoJbpFaXvV-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="630" width="610" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="64MuYq4MFdSoJbpFaXvV-3" value="APP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="64MuYq4MFdSoJbpFaXvV-3" value="&lt;b&gt;APP&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="670" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="64MuYq4MFdSoJbpFaXvV-4" value="View" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
@@ -111,7 +111,7 @@
             <mxPoint x="679.3499999999999" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="64MuYq4MFdSoJbpFaXvV-14" value="Gstreamer Framework" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="64MuYq4MFdSoJbpFaXvV-14" value="&lt;b&gt;Gstreamer Framework&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="840" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="64MuYq4MFdSoJbpFaXvV-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4D9900;strokeColor=#0000FF;shadow=1;" vertex="1" parent="1">
