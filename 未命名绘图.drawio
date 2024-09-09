@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kxF-6bG0vD-OGPQEz8Fa" name="第 2 页">
-    <mxGraphModel dx="554" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="322" dy="184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,8 +96,14 @@
             <mxPoint x="525" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="64MuYq4MFdSoJbpFaXvV-9" value="Can" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="64MuYq4MFdSoJbpFaXvV-9" value="CAN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="620" y="680" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="64MuYq4MFdSoJbpFaXvV-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.844;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="64MuYq4MFdSoJbpFaXvV-6" target="64MuYq4MFdSoJbpFaXvV-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="800" as="sourcePoint" />
+            <mxPoint x="480" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
