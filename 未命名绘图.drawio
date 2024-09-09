@@ -75,6 +75,15 @@
         <mxCell id="64MuYq4MFdSoJbpFaXvV-3" value="APP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="670" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="64MuYq4MFdSoJbpFaXvV-4" value="View" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="680" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="64MuYq4MFdSoJbpFaXvV-5" value="Audio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="470" y="680" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="64MuYq4MFdSoJbpFaXvV-6" value="Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="320" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
